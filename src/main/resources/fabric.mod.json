@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "sneak-toggle-gui",
+  "version": "${version}",
+  "name": "Sneak Toggle GUI",
+  "description": "Keeps sneaking active while screens such as inventories and chests are open.",
+  "authors": [
+    "SpongeyTS"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.spongeyts.sneaktoggle.SneakToggleClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "fabric-api": "*"
+  }
+}
